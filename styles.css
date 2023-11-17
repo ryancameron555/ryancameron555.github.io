@@ -1,14 +1,25 @@
 /** @format */
+html {
+  color-scheme: light dark;
+}
 
-* {
-  margin: 10;
-  font-family: monospace;
-  box-sizing: border-box;
-  background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+nav ul {
+  border: black solid 2px;
+  border-width: 100%;
+  border-radius: 5px;
+  padding: 0.2px;
+  font-size: 100%;
+  position: sticky;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 5px 50px;
+}
+
+nav ul li a {
+  text-decoration: none;
 }
 
 nav {
@@ -18,26 +29,44 @@ nav {
   border-width: 2px;
 }
 
-#header-image {
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-  background-size: cover;
-  text-align: center;
+body {
+  font-family: monospace;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  box-sizing: border-box;
+  background-color: white;
+  color: #008f11;
+  margin: 20px;
 }
 
-nav ul li {
-  display: inline-block;
-  list-style: none;
-  margin: 10px 20px;
-}
-
-nav ul li a {
-  color: red;
-  text-decoration: none;
-  font-size: 10px;
+img,
+picture,
+svg {
+  border-radius: 10px;
+  max-width: 100%;
+  display: block;
 }
 
 p {
-  color: greenyellow;
+  color: #008f11;
+}
+
+/* unvisited link */
+a:link {
+  color: #008f11;
+}
+
+/* visited link */
+a:visited {
+  color: darkgreen;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }
