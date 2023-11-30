@@ -9,7 +9,6 @@ nav ul {
   border-radius: 5px;
   padding: 0.2px;
   font-size: 100%;
-  position: sticky;
 }
 
 nav ul li {
@@ -27,6 +26,8 @@ nav {
   border-color: black;
   border-radius: 2px;
   border-width: 2px;
+  background-color: black;
+  position: sticky;
 }
 
 body {
@@ -35,14 +36,20 @@ body {
   line-height: 1.6;
   box-sizing: border-box;
   background-color: white;
-  color: #008f11;
+  color: darkgreen;
   margin: 20px;
+}
+
+.content {
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 img,
 picture,
 svg {
-  border-radius: 10px;
+  border-radius: 50px;
   max-width: 100%;
   display: block;
 }
@@ -69,4 +76,10 @@ a:hover {
 /* selected link */
 a:active {
   color: blue;
+}
+
+footer {
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 10px;
 }
