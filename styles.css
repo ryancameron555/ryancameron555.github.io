@@ -1,13 +1,25 @@
 /** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+}
+canvas {
+  display: block;
+}
+
 html {
   color-scheme: light dark;
 }
 
 nav ul {
-  border: black solid 2px;
+  border: #28282b solid 2px;
   border-width: 100%;
   border-radius: 5px;
-  padding: 0.2px;
   font-size: 100%;
 }
 
@@ -23,10 +35,10 @@ nav ul li a {
 
 nav {
   text-align: center;
-  border-color: black;
-  border-radius: 2px;
+  border-color: #28282b;
+  border-radius: 10px;
   border-width: 2px;
-  background-color: black;
+  background-color: #28282b;
   position: sticky;
 }
 
@@ -35,32 +47,37 @@ body {
   font-size: 1.125rem;
   line-height: 1.6;
   box-sizing: border-box;
-  background-color: white;
+  background-color: #e2dfd2;
   color: darkgreen;
   margin: 20px;
+  padding: 20px;
 }
 
 .content {
-  background-color: black;
-  border: 1px solid black;
+  background-color: #28282b;
+  border: 1px solid #28282b;
   border-radius: 10px;
+}
+
+h2 {
+  align-items: center;
 }
 
 img,
 picture,
 svg {
-  border-radius: 50px;
+  border-radius: 10px;
   max-width: 100%;
   display: block;
 }
 
 p {
-  color: #008f11;
+  color: darkgreen;
 }
 
 /* unvisited link */
 a:link {
-  color: #008f11;
+  color: darkgreen;
 }
 
 /* visited link */
@@ -79,7 +96,7 @@ a:active {
 }
 
 footer {
-  background-color: black;
-  border: 1px solid black;
+  background-color: #28282b;
+  border: 1px solid #28282b;
   border-radius: 10px;
 }
